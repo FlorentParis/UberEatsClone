@@ -27,15 +27,15 @@ async function  main() {
             }
         ]); */
         /* await findOneListingByName(client, "Loft London"); */
-        /* await findListingsWithMinimumBedroomsBathroomsAndMostRecentReviews(client, {
+        await findListingsWithMinimumBedroomsBathroomsAndMostRecentReviews(client, {
             minimumNumberOfBedrooms: 1,
             minimumNumberOfBathrooms: 1,
             maximumNumberOfResults: 5
-        }); */
+        });
         /* await updateListingByName(client, "Loft London", {bedrooms: 3, bathrooms: 1}); */
         /* await upsertListingByName(client, "Cozy Cottage", {name: "Cozy Cottage", bedrooms: 2, bathrooms: 1}); */
         /* await updateAllListingsToHavePropertyType(client); */
-        await deleteListingByName(client, "House Dublin");
+        /* await deleteListingByName(client, "House Dublin"); */
     } catch(e) {
         console.error(e);
     } finally {
